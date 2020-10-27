@@ -11,6 +11,7 @@
 - Sort the two halves (recursively).
 - Merge the resulting sorted halves together to produce the sorted result.
 
+```
                   mergesort(0,3)
 		┌───┬───┬───┬───┐
 		| 5 | 3 | 4 | 1 |
@@ -39,6 +40,7 @@
 		┌───┬───┼───┬───┐
 		| 1 | 3 | 4 | 5 |
 		└───┴───┴───┴───┘
+```
 
 Trace
 ```
