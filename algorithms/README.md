@@ -1,8 +1,16 @@
 # Algorithms
 
-## Bubble Sort
+## Runtime
 
-## Selection Sort
+| Algorithm      | Average      | Worst         |
+|----------------|--------------|---------------|
+| Bubble Sort    | `O(n^2)`     | `O(n^2)`      |
+| Insertion Sort | `O(n^2 / 4`) | `O(n^2 / 2)`  |
+| Merge Sort     | `O(n log n)` | `O(n log n)`  |
+| Quick Sort     | `O(n log n)` | `O(n^2 / 2)`  |
+| Heap Sort      | `O(n log n)` | `O(2n log n)` |
+
+## Bubble Sort
 
 ## Insertion Sort
 
@@ -60,4 +68,4 @@ merge( [3, 5, 1, 4], 0, 1, 3)
 
 ## Quick Sort
 
-## Head Sort
+## Heap Sort
