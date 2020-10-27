@@ -7,7 +7,6 @@ class MergeSort {
 
     // Take two sorted lists and produce one sorted list.
     void merge(int arr[], int l, int m, int r) {
-        System.out.println("merge( " + Arrays.toString(arr) + ", " + Integer.toString(l) + ", " + Integer.toString(m) + ", " + Integer.toString(r) + ")");
         int n1 = m - l + 1;
         int n2 = r - m;
 
@@ -56,7 +55,6 @@ class MergeSort {
     }
 
     void mergeSort(int arr[], int l, int r) {
-        System.out.println("mergeSort( " + Arrays.toString(arr) + ", " + Integer.toString(l) + ", " + Integer.toString(r) + ")");
         if (r <= l) return;
 
         int m = (l+r)/2;
